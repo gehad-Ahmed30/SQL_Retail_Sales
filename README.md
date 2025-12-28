@@ -1,6 +1,7 @@
 ## 📊 Retail Sales Analysis Project
 
 ![photo](./sql1.png)
+![photo](./sql2.png)
 
 This project focuses on analyzing retail sales data using SQL to uncover meaningful business insights.  
 It demonstrates a complete data analysis workflow starting from database setup and data cleaning,  
