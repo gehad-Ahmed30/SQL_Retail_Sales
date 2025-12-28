@@ -1,47 +1,18 @@
-# Retail Sales Analysis SQL Project
+## 📊 Retail Sales Analysis Project
 
-## 📌 Project Overview
-**Project Title:** Retail Sales Analysis  
-**Level:** Beginner  
-**Database:** SQL_Analysis_project1  
+This project focuses on analyzing retail sales data using SQL to uncover meaningful business insights.  
+It demonstrates the complete data analysis workflow, starting from database setup and data cleaning,  
+to exploratory data analysis (EDA) and answering real-world business questions.
 
-This project demonstrates essential SQL skills for data analysts, including database creation, data cleaning, exploratory data analysis (EDA), and answering business questions using SQL queries.
+The analysis helps in understanding customer behavior, sales performance across different product  
+categories, and identifying high-value customers and peak sales periods. Key insights include  
+sales trends over time, category performance, customer demographics, and transaction patterns  
+based on time shifts (morning, afternoon, and evening).
 
----
+This project is designed for beginners and showcases practical SQL skills that are essential for  
+data analyst roles, such as data aggregation, filtering, grouping, and analytical thinking to  
+support business decision-making.
 
-## 🎯 Objectives
-- **Database Setup:** Create and populate a retail sales database  
-- **Data Cleaning:** Identify and remove records with missing or NULL values  
-- **Exploratory Data Analysis (EDA):** Understand the dataset using basic SQL queries  
-- **Business Analysis:** Answer real business questions using SQL  
 
----
 
-## 🗄️ 1. Database Setup
-
-### Create Database
-```sql
-CREATE DATABASE SQL_Analysis_project1;
-USE SQL_Analysis_project1;
-```
-### Create Table
-```sql
-CREATE TABLE retails_sales (
-  transication_id INT PRIMARY KEY,
-  sale_date DATE,
-  sale_time TIME,
-  customer_id INT,
-  gender VARCHAR(15),
-  age INT,
-  category VARCHAR(15),
-  quantity INT,
-  price_per_unit FLOAT,
-  cogs FLOAT,
-  total_sale FLOAT
-);
-```
-## 2. Data Exploration & Cleaning
-### View Records
-SELECT * FROM retails_sales;
-SELECT TOP 10 * FROM retails_sales;
 
